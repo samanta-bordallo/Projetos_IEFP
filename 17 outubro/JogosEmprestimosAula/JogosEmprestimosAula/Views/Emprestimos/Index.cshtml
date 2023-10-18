@@ -1,0 +1,40 @@
+﻿@model IEnumerable<EmprestimosModel>
+
+<h1 class="display-4">Listagem de Emprestimos de Jogos</h1>
+
+<table class="table table-hover table-dark">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Recebedor</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Nome do Jogo</th>
+            <th scope="col">Data de atualização</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if(Model!=null)
+        {
+            @foreach(var emprestimo in Model)
+            {
+        
+
+                <tr>
+                    <th scope="row">@emprestimo.Id</th>
+                    <td>@emprestimo.Recebedor</td>
+                    <td>@emprestimo.Fornecedor</td>
+                    <td>@emprestimo.JogoEmprestado</td>
+                    <td>@emprestimo.DataUltimaAtualizacao</td>
+        </tr>
+            }
+        }
+    </tbody>
+
+
+
+
+
+
+
+</table>
