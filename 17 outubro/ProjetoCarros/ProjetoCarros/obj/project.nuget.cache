@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1AAC6JaW1UicxZ1yGi8H6cXq7uo13pxWTDg0gxU+20u7Dzw4Cuy1N+ZnoUWc/Q41SM96lDSu46MLvc3VmMf0vg==",
+  "dgSpecHash": "yqB9nqAr0K8gpvD1Hqf+uKeHEzdJMvxdZU+6VBg6++f1Tsvah5B/gRc6i4UinT9nEMHYlRkQxwNKUWzsNxwryQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
+  "projectFilePath": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vschu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vschu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

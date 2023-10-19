@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj": {}
+    "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj": {
+    "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
+        "projectUniqueName": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
         "projectName": "ProjetoCarros",
-        "projectPath": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
+        "projectPath": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\ProjetoCarros.csproj",
         "packagesPath": "C:\\Users\\vschu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\ProjetoCarros\\ProjetoCarros\\obj\\",
+        "outputPath": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vschu\\AppData\\Roaming\\NuGet\\NuGet.Config",

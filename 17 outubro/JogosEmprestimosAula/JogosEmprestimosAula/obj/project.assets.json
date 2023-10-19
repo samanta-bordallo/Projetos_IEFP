@@ -2893,19 +2893,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vschu\\.nuget\\packages\\": {}
+    "C:\\Users\\borda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
+      "projectUniqueName": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
       "projectName": "JogosEmprestimosAula",
-      "projectPath": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
-      "packagesPath": "C:\\Users\\vschu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borda\\OneDrive\\Área de Trabalho\\Samanta\\CURSO PROGRAMAÇÃO\\IEFP\\Programação ASP.Net Core MVC (SS)\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\obj\\",
+      "projectPath": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
+      "packagesPath": "C:\\Users\\borda\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vschu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\borda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
