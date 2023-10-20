@@ -1,7 +1,10 @@
 ﻿@model IEnumerable<CarrosModel>
 
-<h1 class="display-4">Informações sobre os Carros</h1>
-
+<div class=" container">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="display-4">Listagem de Carros</h1>
+        <a class="btn btn-success" asp-controller="Registo" asp-action="NovoRegisto">Novo Registo</a>
+    </div>
 <table class="table table-hover table-dark">
     <thead>
         <tr>

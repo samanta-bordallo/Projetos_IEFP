@@ -21,5 +21,23 @@ namespace JogosEmprestimosAula.Controllers
 
             return View(emprestimos);
         }
+
+        [HttpGet]
+        public IActionResult NovoRegisto()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NovoRegisto(EmprestimosModel emprestimos)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Emprestimos.Add(emprestimos);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(emprestimos);
+        }
     }
 }

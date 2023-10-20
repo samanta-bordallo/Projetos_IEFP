@@ -21,5 +21,23 @@ namespace ProjetoCarros.Controllers
 
             return View(registos);
         }
+
+        [HttpGet]
+        public IActionResult NovoRegisto()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NovoRegisto(CarrosModel registo)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Registo.Add(registo);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(registo);
+        }
     }
 }
