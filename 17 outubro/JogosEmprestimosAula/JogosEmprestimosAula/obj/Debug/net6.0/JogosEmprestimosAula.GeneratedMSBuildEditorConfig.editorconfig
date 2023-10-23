@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projetos_IEFP\17 outubro\JogosEmprestimosAula\JogosEmprestimosAula
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Projetos_IEFP/17 outubro/JogosEmprestimosAula/JogosEmprestimosAula/Views/Emprestimos/EditarRegisto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb3NcRWRpdGFyUmVnaXN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projetos_IEFP/17 outubro/JogosEmprestimosAula/JogosEmprestimosAula/Views/Emprestimos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -39,5 +39,21 @@ namespace JogosEmprestimosAula.Controllers
             }
             return View(emprestimos);
         }
+
+        [HttpGet]
+        public IActionResult EditarRegisto(int? id)
+        {
+            if(id == null)
+            {
+                return NotFound(); 
+            }
+            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if(emprestimos == null)
+            {
+                return NotFound(id);
+            }
+
+            return View(emprestimos);
+        }
     }
 }

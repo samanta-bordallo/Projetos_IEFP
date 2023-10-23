@@ -39,5 +39,21 @@ namespace ProjetoCarros.Controllers
             }
             return View(registo);
         }
+
+        [HttpGet]
+        public IActionResult EditarRegisto(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            CarrosModel registo = _db.Registo.FirstOrDefault(x => x.Id == id);
+            if (registo == null)
+            {
+                return NotFound(id);
+            }
+
+            return View(registo);
+        }
     }
 }
