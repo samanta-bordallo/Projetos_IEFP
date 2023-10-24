@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "99w/XW//1EmHpKNTP27h4U3B2dg3x65SABbm4ULP40s=",
+  "Hash": "Zk3XzS2LF4nyo2ZX5L9rv0IkztJ4Wluvn5C5lqctLu0=",
   "Source": "ProjetoCarros",
   "BasePath": "_content/ProjetoCarros",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjetoCarros.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\wwwroot\\css\\Minty.css",
+      "SourceId": "ProjetoCarros",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\wwwroot\\",
+      "BasePath": "_content/ProjetoCarros",
+      "RelativePath": "css/Minty.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Minty.css"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\ProjetoCarros\\ProjetoCarros\\wwwroot\\css\\site.css",

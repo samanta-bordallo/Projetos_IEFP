@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rjJbfQ8Ku/qn3CE81s0yzCq8aGnttP8U5X3WG0ep14s=",
+  "Hash": "M9jqwCfK6NSfyC1PBlGUph957jQz8q4x7ZZkq+LMpvA=",
   "Source": "JogosEmprestimosAula",
   "BasePath": "_content/JogosEmprestimosAula",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JogosEmprestimosAula.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\Minty.css",
+      "SourceId": "JogosEmprestimosAula",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\",
+      "BasePath": "_content/JogosEmprestimosAula",
+      "RelativePath": "css/Minty.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Minty.css"
+    },
+    {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\site.css",
       "SourceId": "JogosEmprestimosAula",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\ThemeMorph.css",
+      "SourceId": "JogosEmprestimosAula",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\",
+      "BasePath": "_content/JogosEmprestimosAula",
+      "RelativePath": "css/ThemeMorph.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ThemeMorph.css"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\favicon.ico",

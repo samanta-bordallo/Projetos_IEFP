@@ -55,5 +55,50 @@ namespace JogosEmprestimosAula.Controllers
 
             return View(emprestimos);
         }
+        [HttpPost]
+        public IActionResult EditarRegisto(EmprestimosModel emprestimos)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Emprestimos.Update(emprestimos);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }        
+            return View(emprestimos);
+
+
+        }
+
+        [HttpGet]
+        public IActionResult EliminarRegisto(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if (emprestimos == null)
+            {
+                return NotFound(id);
+            }
+
+            return View(emprestimos);
+        }
+
+        [HttpPost]
+        public IActionResult EliminarRegisto(EmprestimosModel emprestimo)
+        {
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+
+            _db.Emprestimos.Remove(emprestimo);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
+
     }
 }

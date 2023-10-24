@@ -55,5 +55,51 @@ namespace ProjetoCarros.Controllers
 
             return View(registo);
         }
+        [HttpPost]
+        public IActionResult EditarRegisto(CarrosModel registo)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Registo.Update(registo);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(registo);
+
+
+        }
+
+
+        [HttpGet]
+        public IActionResult EliminarRegisto(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            CarrosModel registo = _db.Registo.FirstOrDefault(x => x.Id == id);
+            if (registo == null)
+            {
+                return NotFound(id);
+            }
+
+            return View(registo);
+        }
+
+        [HttpPost]
+        public IActionResult EliminarRegisto(CarrosModel registo)
+        {
+            if (registo == null)
+            {
+                return NotFound();
+            }
+
+            _db.Registo.Remove(registo);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
+
     }
 }

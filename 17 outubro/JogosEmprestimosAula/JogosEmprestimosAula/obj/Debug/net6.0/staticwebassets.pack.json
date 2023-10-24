@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\JogosEmprestimosAula.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\Minty.css",
+      "PackagePath": "staticwebassets\\css\\Minty.css"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\ThemeMorph.css",
+      "PackagePath": "staticwebassets\\css\\ThemeMorph.css"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
