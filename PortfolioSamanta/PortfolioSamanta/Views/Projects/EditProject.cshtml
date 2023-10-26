@@ -1,0 +1,45 @@
+﻿@model ProjectsModel
+@{
+
+    ViewData["title"] = "Edit Project";
+}
+
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Edit Project</h1>
+
+    </div>
+    <form method="post" asp-controller="Projects" asp-action="EditProject">
+        <input type="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" asp-for="Name" id="Name" placeholder="What is the name of the project?">
+            <span class="text-danger" asp-validation-for="Name"> </span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Finished</label>
+            <div>
+                <input type="radio" asp-for="Finished" id="Finished_Yes" value="true" />
+                <label for="Finished_Yes">Yes</label>
+            </div>
+            <div>
+                <input type="radio" asp-for="Finished" id="Finished_No" value="false" />
+                <label for="Finished_No">No</label>
+            </div>
+            <span class="text-danger" asp-validation-for="Finished"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Link" class="form-label">Link</label>
+            <input type="text" class="form-control" asp-for="Link" id="Link" placeholder="What is the access link to the project?">
+            <span class="text-danger" asp-validation-for="Link"> </span>
+
+            <div class="d-flex gap-2 mt-5">
+                <button type="submit" class="btn btn-primary w-50">Submit</button>
+                <a class="btn btn-primary w-50" asp-controller="Projects" asp-action="Index">Return</a>
+
+            </div>
+            <div style="height: 100px;"></div>
+    </form>
+
+</div>
