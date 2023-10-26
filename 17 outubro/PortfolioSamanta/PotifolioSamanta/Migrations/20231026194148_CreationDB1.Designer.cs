@@ -12,8 +12,8 @@ using PotifolioSamanta.Data;
 namespace PortfolioSamanta.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231025155556_CreationDB")]
-    partial class CreationDB
+    [Migration("20231026194148_CreationDB1")]
+    partial class CreationDB1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,19 @@ namespace PortfolioSamanta.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("PotifolioSamanta.Models.AboutMeModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AboutMe");
+                });
 
             modelBuilder.Entity("PotifolioSamanta.Models.ProjectsModel", b =>
                 {
@@ -40,7 +53,15 @@ namespace PortfolioSamanta.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Language")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Topic")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

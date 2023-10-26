@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortfolioSamanta.Models;
 using PotifolioSamanta.Models;
 
 namespace PotifolioSamanta.Data
@@ -11,9 +10,9 @@ namespace PotifolioSamanta.Data
         public DbSet<AboutMeModel> AboutMe { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<AboutMeModel>().HasNoKey();
-        }
+       // protected override void OnModelCreating(ModelBuilder modelBuilder)
+       // {
+       //     modelBuilder.Entity<AboutMeModel>().HasNoKey();
+       //}
     }
 }

@@ -5,7 +5,7 @@
 namespace PortfolioSamanta.Migrations
 {
     /// <inheritdoc />
-    public partial class CreationDB2 : Migration
+    public partial class CreationDB1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,9 +26,12 @@ namespace PortfolioSamanta.Migrations
                 name: "AboutMe",
                 columns: table => new
                 {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1")
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_AboutMe", x => x.Id);
                 });
         }
 
