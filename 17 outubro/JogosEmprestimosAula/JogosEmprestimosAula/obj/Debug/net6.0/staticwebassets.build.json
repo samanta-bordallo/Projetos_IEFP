@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M9jqwCfK6NSfyC1PBlGUph957jQz8q4x7ZZkq+LMpvA=",
+  "Hash": "rRzHTfkWg8wFYHHgkmjYdQAJCqWHIf2RkqcBXr70v6I=",
   "Source": "JogosEmprestimosAula",
   "BasePath": "_content/JogosEmprestimosAula",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JogosEmprestimosAula.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\Minty.css",
-      "SourceId": "JogosEmprestimosAula",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\",
-      "BasePath": "_content/JogosEmprestimosAula",
-      "RelativePath": "css/Minty.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Minty.css"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\wwwroot\\css\\site.css",

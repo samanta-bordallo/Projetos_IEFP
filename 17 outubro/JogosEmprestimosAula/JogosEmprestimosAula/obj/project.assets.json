@@ -2893,7 +2893,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\borda\\.nuget\\packages\\": {}
+    "C:\\Users\\vschu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2901,11 +2901,11 @@
       "projectUniqueName": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
       "projectName": "JogosEmprestimosAula",
       "projectPath": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\JogosEmprestimosAula.csproj",
-      "packagesPath": "C:\\Users\\borda\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\vschu\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos_IEFP\\17 outubro\\JogosEmprestimosAula\\JogosEmprestimosAula\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\borda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vschu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

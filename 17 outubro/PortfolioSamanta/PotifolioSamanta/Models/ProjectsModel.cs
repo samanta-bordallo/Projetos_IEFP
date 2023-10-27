@@ -13,6 +13,8 @@ namespace PotifolioSamanta.Models
         public string? Topic { get; set; }
         [Required(ErrorMessage = "Fill in the link!What language is used?")]
         public string? Language { get; set; }
+        [Required(ErrorMessage = "Fill in the link!")]
+        public string? Link { get; set; }
         public DateTime DataUltimaAtualizacao { get; set; } = DateTime.Now;
     }
 }
