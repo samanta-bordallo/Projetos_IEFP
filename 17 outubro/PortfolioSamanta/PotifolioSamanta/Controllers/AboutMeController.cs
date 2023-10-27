@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PotifolioSamanta.Models;
 
 namespace PortfolioSamanta.Controllers
 {
@@ -9,4 +10,8 @@ namespace PortfolioSamanta.Controllers
             return View();
         }
     }
+
+    
+
+
 }

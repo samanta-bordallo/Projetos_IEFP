@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card-img-fixed {
+    width: 100%; /* faz a imagem ocupar toda a largura do card */
+    height: 200px; /* altura fixa para todas as imagens */
+    object-fit: cover; /* mantém as proporções corretas, recortando o excesso */
+}

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\PortfolioSamanta.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\AdventuraSamanta.png",
+      "PackagePath": "staticwebassets\\Imagens\\AdventuraSamanta.png"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\PaoDeQueijo.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\PaoDeQueijo.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\SamantaImage.JPG",
       "PackagePath": "staticwebassets\\Imagens\\SamantaImage.JPG"
     },

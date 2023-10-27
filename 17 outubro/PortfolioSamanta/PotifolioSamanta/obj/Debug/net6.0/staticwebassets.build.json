@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G1G2546RGGou2LiLyVntXMiGQWYvQznYnZJSmnmfIAk=",
+  "Hash": "HsknFpdA27StVWkf5J0hVSDpBkd+zd2l5ahy1AUHx4s=",
   "Source": "PortfolioSamanta",
   "BasePath": "_content/PortfolioSamanta",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\AdventuraSamanta.png",
+      "SourceId": "PortfolioSamanta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
+      "BasePath": "_content/PortfolioSamanta",
+      "RelativePath": "Imagens/AdventuraSamanta.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\AdventuraSamanta.png"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\PaoDeQueijo.jpg",
+      "SourceId": "PortfolioSamanta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
+      "BasePath": "_content/PortfolioSamanta",
+      "RelativePath": "Imagens/PaoDeQueijo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\PaoDeQueijo.jpg"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\SamantaImage.JPG",
