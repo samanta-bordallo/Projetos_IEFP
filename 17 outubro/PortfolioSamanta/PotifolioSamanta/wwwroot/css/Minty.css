@@ -133,6 +133,19 @@
   --bs-form-invalid-border-color: #ff7851;
 }
 
+.contact-buttons .btn-link span {
+    display: flex;
+    align-items: center;
+}
+
+.contact-buttons .btn-link i {
+    margin-right: 5px; /* Ajuste a margem conforme necessário para o espaçamento desejado */
+}
+
+.contact-buttons a {
+    text-decoration: none;
+}
+
 [data-bs-theme=dark] {
   color-scheme: dark;
   --bs-body-color: #eceeef;
