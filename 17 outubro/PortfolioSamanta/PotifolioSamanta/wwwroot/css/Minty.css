@@ -133,6 +133,11 @@
   --bs-form-invalid-border-color: #ff7851;
 }
 
+.custom-card {
+    background-image: url('PaoDeQueijo.jpg');
+    background-size: cover;
+}
+
 .contact-buttons .btn-link span {
     display: flex;
     align-items: center;

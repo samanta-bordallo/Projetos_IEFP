@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card d-flex flex-fill" style="width: 18rem; height: 100%;">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="card-img-top" alt="Pão de Queijo" style="width: 100%; height: 350px;"> <!-- Ajustado para 2.5 vezes -->
+                <img src="~/Imagens/PaoDeQueijo.jpg" class="card-img-top" alt="Pão de Queijo" style="width: 100%; height: 350px;"> 
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title text-center">Samanta's recipes</h5>
                     <p class="card-text text-center">Here I write some of my most precious recipes that I make to welcome my friends</p>
@@ -23,10 +23,9 @@
                 </div>
             </div>
         </div>
-
         <div class="col-md-4">
             <div class="card d-flex flex-fill" style="width: 18rem; height: 100%;">
-                <img src="~/Imagens/AdventuraSamanta.png" class="card-img-top" alt="Beach" style="width: 100%; height: 350px;"> <!-- Ajustado para 2.5 vezes -->
+                <img src="~/Imagens/AdventuraSamanta.png" class="card-img-top" alt="Beach" style="width: 100%; height: 350px;"> 
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title text-center">Samanta's Adventures</h5>
                     <p class="card-text text-center">Here I talk about some of my adventures such as hiking, traveling and more.</p>
@@ -36,22 +35,20 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="card-img-top" alt="Pão de Queijo">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Samanta's recipes</h5>
-                    <p class="card-text text-center">Here I write some of my most precious recipes that I make to welcome my friends</p>
-                    <div class="text-center">
-                        <a asp-controller="PersonalBlog" asp-action="RecipesBlog" class="btn btn-primary">Go to Recipe</a>
+            <div class="card d-flex flex-fill" style="width: 18rem; height: 100%;">
+                <img src="~/Imagens/origami.jpg" class="card-img-top" alt="Hobbies" style="width: 100%; height: 350px;"> 
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-center">Samanta's hobbies</h5>
+                    <p class="card-text text-center">My hobbies range from origami to wanting to learn to play the violin.</p>
+                    <div class="text-center mt-auto">
+                        <a asp-controller="PersonalBlog" asp-action="HobbiesBlog" class="btn btn-primary">Go to Hobbies</a>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
 

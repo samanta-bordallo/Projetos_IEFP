@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\Imagens\\SamantaImage.JPG"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\brownie.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\brownie.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\origami.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\origami.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\site.css",
       "PackagePath": "staticwebassets\\Imagens\\site.css"
     },

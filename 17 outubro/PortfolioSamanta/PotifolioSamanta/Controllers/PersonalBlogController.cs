@@ -24,6 +24,12 @@ namespace PortfolioSamanta.Controllers
         return View();
     }
 
+    [HttpGet]
+    public IActionResult HobbiesBlog()
+    {
+        return View();
+    }
+
 
 
     }
