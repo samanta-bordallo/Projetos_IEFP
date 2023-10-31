@@ -26,3 +26,39 @@
         }
     });
 });
+
+
+function zoomImage(img) {
+const zoomedImg = document.createElement('div');
+zoomedImg.style.position = 'fixed';
+zoomedImg.style.top = '0';
+zoomedImg.style.left = '0';
+zoomedImg.style.width = '100%';
+zoomedImg.style.height = '100%';
+zoomedImg.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+zoomedImg.style.display = 'flex';
+zoomedImg.style.alignItems = 'center';
+zoomedImg.style.justifyContent = 'center';
+
+const imgElement = document.createElement('img');
+imgElement.src = img.src;
+imgElement.style.maxWidth = '90%';
+imgElement.style.maxHeight = '90%';
+
+zoomedImg.appendChild(imgElement);
+
+zoomedImg.addEventListener('click', function () {
+    document.body.removeChild(zoomedImg);
+});
+
+document.body.appendChild(zoomedImg);
+}
+
+const images = document.querySelectorAll('img');
+
+images.forEach(function (img) {
+    img.addEventListener('click', function () {
+        zoomImage(img);
+    });
+});
+

@@ -133,6 +133,17 @@
   --bs-form-invalid-border-color: #ff7851;
 }
 
+
+blockquote {
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.blockquote {
+    text-align: justify; /* Justificar o texto */
+}
+
 .custom-card {
     background-image: url('PaoDeQueijo.jpg');
     background-size: cover;

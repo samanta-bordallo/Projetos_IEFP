@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z+zQPY5qriiL1tnNhuhTZUPlfCn3QV6sg9rQYFMc0yo=",
+  "Hash": "eh8w4An+QbLwP5jXayBXC+Ksj4yNPOcknTuh7lUjr5g=",
   "Source": "PortfolioSamanta",
   "BasePath": "_content/PortfolioSamanta",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\brownie.jpg"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\guacamole.jpg",
+      "SourceId": "PortfolioSamanta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
+      "BasePath": "_content/PortfolioSamanta",
+      "RelativePath": "Imagens/guacamole.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\guacamole.jpg"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\origami.jpg",
