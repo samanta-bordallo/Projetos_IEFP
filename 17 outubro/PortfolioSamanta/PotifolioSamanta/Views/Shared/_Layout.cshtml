@@ -36,6 +36,9 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="PersonalBlog" asp-action="Index"><i class="bi bi-person-vcard"></i> Personal Blog</a>
                         </li>
                     </ul>
+
+                    <partial name="_LoginPartial.cshtml" />
+
                 </div>
             </div>
 
@@ -56,6 +59,8 @@
             </div>
 
 
+
+
         </nav>
     </header>
     <div class="container">
@@ -65,10 +70,11 @@
     </div>
 
     <footer class="border-top footer text-muted bg-dark bottom-0 position-fixed">
-        <div class="container text-light">
-            &copy; 2023 - Samanta's portfolio - <a asp-area="" asp-controller="Projects" asp-action="Projects">Projects</a>
+        <div class="container text-light d-flex justify-content-center align-items-center">
+            &copy; 2023 - Samanta's portfolio - Samanta Bordallo</>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.js"></script>
