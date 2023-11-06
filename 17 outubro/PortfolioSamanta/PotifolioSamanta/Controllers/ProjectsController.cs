@@ -55,7 +55,7 @@ namespace PortfolioSamanta.Controllers
             return RedirectToAction("Index");
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
 
         [HttpGet]
         public IActionResult NewProject()
@@ -75,7 +75,7 @@ namespace PortfolioSamanta.Controllers
             return View(Projects);
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult EditProject(int? id)
         {
@@ -91,7 +91,7 @@ namespace PortfolioSamanta.Controllers
 
             return View(Projects);
         }
-        [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult EditProject(ProjectsModel Projects)
         {
             if (ModelState.IsValid)
@@ -105,7 +105,7 @@ namespace PortfolioSamanta.Controllers
 
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult DeleteProject(int? id)
         {

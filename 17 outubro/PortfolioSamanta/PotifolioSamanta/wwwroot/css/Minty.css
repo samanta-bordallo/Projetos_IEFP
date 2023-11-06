@@ -134,6 +134,19 @@
 }
 
 
+.hidden {
+    display: none;
+}
+
+
+body {
+    background-image: url('../Imagens/background.jpg'); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Para evitar repetições da imagem */
+    background-attachment: fixed; /* Para manter a imagem fixa enquanto rola a página */
+}
+
+
 blockquote {
     width: 100%;
     overflow: hidden;

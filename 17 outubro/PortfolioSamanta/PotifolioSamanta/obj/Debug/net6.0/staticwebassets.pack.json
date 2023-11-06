@@ -9,6 +9,26 @@
       "PackagePath": "staticwebassets\\Imagens\\AdventuraSamanta.png"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\LagoaLeste\\Lagoa1.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Adventures\\LagoaLeste\\Lagoa1.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\LagoaLeste\\Lagoa2.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Adventures\\LagoaLeste\\Lagoa2.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\LagoaLeste\\Lagoa3.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Adventures\\LagoaLeste\\Lagoa3.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\LagoaLeste\\Lagoa4.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Adventures\\LagoaLeste\\Lagoa4.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\LagoaLeste\\Lagoa5.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Adventures\\LagoaLeste\\Lagoa5.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Adventures\\Monastery\\Monastery1.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Adventures\\Monastery\\Monastery1.jpg"
     },
@@ -49,6 +69,38 @@
       "PackagePath": "staticwebassets\\Imagens\\Adventures\\Monastery\\Monastery9.jpg"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit1.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit1.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit2.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit2.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit3.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit3.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit4.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit4.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit5.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit5.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit6.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit6.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit7.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit7.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit8.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit8.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Origamis\\dragon.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Origamis\\dragon.jpg"
     },
@@ -77,6 +129,10 @@
       "PackagePath": "staticwebassets\\Imagens\\PaoDeQueijo.jpg"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\SamantaImage - Copia.JPG",
+      "PackagePath": "staticwebassets\\Imagens\\SamantaImage - Copia.JPG"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\SamantaImage.JPG",
       "PackagePath": "staticwebassets\\Imagens\\SamantaImage.JPG"
     },
@@ -99,6 +155,10 @@
     {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\xwing_fighter.jpg",
       "PackagePath": "staticwebassets\\Imagens\\xwing_fighter.jpg"
+    },
+    {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\GotaAgua.jpg",
+      "PackagePath": "staticwebassets\\css\\GotaAgua.jpg"
     },
     {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\Minty.css",

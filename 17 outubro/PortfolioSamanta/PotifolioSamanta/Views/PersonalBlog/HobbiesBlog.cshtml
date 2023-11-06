@@ -1,70 +1,134 @@
 ﻿@model IEnumerable<PersonalBlogModel>
 
-<div class=" container">
+<div class="container">
     <div class="d-flex justify-content-between align-items-center">
-        <h1 class="display-4 align-items-center"><i class="bi bi-palette"></i> <i class="bi bi-palette"></i> Samanta's Hobbies <i class="bi bi-palette"></i><i class="bi bi-palette"></i>
-
+        <h1 class="display-4 align-items-center"><i class="bi bi-palette"></i> <i class="bi bi-palette"></i> Samanta's Hobbies <i class="bi bi-palette"></i><i class="bi bi-palette"></i></h1>
     </div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-
 </div>
-
 
 <div class="container my-4">
-    <div class="card" style="max-width: 90%;">
-        <div class="card-header text-center">
-            <h2 class="display-6">Origami gallery</h2>
+<div class="card" style="max-width: 90%;">
+    <div class="card-header text-center">
+        <h2 class="display-6">
+            <a id="expand-link-origami" href="#" style="text-decoration: none;">
+                Origami Gallery
+            </a>
+        </h2>
+    </div>
+    <div class="card-body" id="content-body-origami" style="display: none;">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Imagens/origami.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/xwing_fighter.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/dragon.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/guitar2.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            </div>
         </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="~/Imagens/origami.jpg" class="img-fluid" alt="Pão de Queijo 1" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/xwing_fighter.jpg" class="img-fluid" alt="Pão de Queijo 2" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/dragon.jpg" class="img-fluid" alt="Pão de Queijo 3" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/guitar2.jpg" class="img-fluid" alt="Pão de Queijo 4" style="width: 18rem; height: 100%;">
-                </div>
+        <div style="height: 15px;"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/rose.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
             </div>
-            <div style="height: 15px;"></div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/rose.jpg" class="img-fluid" alt="Pão de Queijo 5" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/rose2.jpg" class="img-fluid" alt="Pão de Queijo 6" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/stars.jpg" class="img-fluid" alt="Pão de Queijo 7" style="width: 18rem; height: 100%;">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/Origamis/tsuruclinica.jpg" class="img-fluid" alt="Pão de Queijo 8" style="width: 18rem; height: 100%;">
-                </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/rose2.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
             </div>
-            <div style="height: 15px;"></div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="Pão de Queijo 9">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="Pão de Queijo 10">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="Pão de Queijo 11">
-                </div>
-                <div class="col-md-3">
-                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="Pão de Queijo 12">
-                </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/stars.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
             </div>
-
-
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+            <div class="col-md-3">
+                <img src="~/Imagens/Origamis/tsuruclinica.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            </div>
+        </div>
+        <div style="height: 15px;"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
+            </div>
 
         </div>
     </div>
 </div>
+
+<div class="container my-4">
+    <div a class="card" style="max-width: 90%;">
+        <div class="card-header text-center">
+            <h2 class="display-6">
+                <a id="expand-link-clay" href="#" style="text-decoration: none;">
+                    Air Dry Clay
+                </a>
+            </h2>
+        </div>
+        <div class="card-body" id="content-body-clay" style="display: none;">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit1.jpg" class="img-fluid" alt="Pão de Queijo 1" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit2.jpg" class="img-fluid" alt="Pão de Queijo 2" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit3.jpg" class="img-fluid" alt="Pão de Queijo 3" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit4.jpg" class="img-fluid" alt="Pão de Queijo 4" style="width: 18rem; height: 100%;">
+            </div>
+        </div>
+        <div style="height: 15px;"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit5.jpg" class="img-fluid" alt="Pão de Queijo 5" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit6.jpg" class="img-fluid" alt="Pão de Queijo 6" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit7.jpg" class="img-fluid" alt="Pão de Queijo 7" style="width: 18rem; height: 100%;">
+            </div>
+            <div class="col-md-3">
+                <img src="~/Imagens/Hobbies/Biscuit/biscuit8.jpg" class="img-fluid" alt="Pão de Queijo 8" style="width: 18rem; height: 100%;">
+            </div>
+        </div>
+        <div style="height: 15px;"></div>
+        </div>
+    </div>
+</div>
+
+<div style="height: 100px;"></div>
+
+<script>
+    document.getElementById('expand-link-origami').addEventListener('click', function (event) {
+        event.preventDefault();
+        const contentBody = document.getElementById('content-body-origami');
+        if (contentBody.style.display === 'none') {
+            contentBody.style.display = 'block';
+        } else {
+            contentBody.style.display = 'none';
+        }
+    });
+
+    document.getElementById('expand-link-clay').addEventListener('click', function (event) {
+        event.preventDefault();
+        const contentBody = document.getElementById('content-body-clay');
+        if (contentBody.style.display === 'none') {
+            contentBody.style.display = 'block';
+        } else {
+            contentBody.style.display = 'none';
+        }
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>

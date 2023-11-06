@@ -22,3 +22,11 @@ body {
     height: 200px; /* altura fixa para todas as imagens */
     object-fit: cover; /* mantém as proporções corretas, recortando o excesso */
 }
+
+
+body {
+    background-image: url('Imagens/GotaAgua.jpg'); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Para evitar repetições da imagem */
+    background-attachment: fixed; /* Para manter a imagem fixa enquanto rola a página */
+}

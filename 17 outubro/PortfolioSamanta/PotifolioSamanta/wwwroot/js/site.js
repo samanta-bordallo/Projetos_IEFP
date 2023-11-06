@@ -62,3 +62,9 @@ images.forEach(function (img) {
     });
 });
 
+document.getElementById('expand-link').addEventListener('click', function (event) {
+    event.preventDefault();  // Impede o link de redirecionar
+
+    const imageContainer = document.getElementById('image-container');
+    imageContainer.style.display = 'block';
+});
