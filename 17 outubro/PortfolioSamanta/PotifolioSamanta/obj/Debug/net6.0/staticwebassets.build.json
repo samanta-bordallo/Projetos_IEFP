@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "30+1LzmMux83aexFOOoVi37khrK6YvCxHD9Bemlj6UQ=",
+  "Hash": "qFBEdlPjc+k17qdkM+50R67NmPXlLGVRQ1RR3aqo1/I=",
   "Source": "PortfolioSamanta",
   "BasePath": "_content/PortfolioSamanta",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PortfolioSamanta.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\GotaAgua.jpg",
-      "SourceId": "PortfolioSamanta",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
-      "BasePath": "_content/PortfolioSamanta",
-      "RelativePath": "css/GotaAgua.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\GotaAgua.jpg"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\Minty.css",
@@ -391,6 +374,23 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Adventures\\Monastery\\Monastery9.jpg"
     },
     {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\background.jpg",
+      "SourceId": "PortfolioSamanta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
+      "BasePath": "_content/PortfolioSamanta",
+      "RelativePath": "Imagens/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\background.jpg"
+    },
+    {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\brownie.jpg",
       "SourceId": "PortfolioSamanta",
       "SourceType": "Discovered",
@@ -406,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\brownie.jpg"
+    },
+    {
+      "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\GotaAgua.jpg",
+      "SourceId": "PortfolioSamanta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\",
+      "BasePath": "_content/PortfolioSamanta",
+      "RelativePath": "Imagens/GotaAgua.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\GotaAgua.jpg"
     },
     {
       "Identity": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\guacamole.jpg",

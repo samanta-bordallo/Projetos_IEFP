@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\Imagens\\Adventures\\Monastery\\Monastery9.jpg"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\GotaAgua.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\GotaAgua.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\Hobbies\\Biscuit\\biscuit1.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Hobbies\\Biscuit\\biscuit1.jpg"
     },
@@ -137,6 +141,10 @@
       "PackagePath": "staticwebassets\\Imagens\\SamantaImage.JPG"
     },
     {
+      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\background.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\background.jpg"
+    },
+    {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\brownie.jpg",
       "PackagePath": "staticwebassets\\Imagens\\brownie.jpg"
     },
@@ -155,10 +163,6 @@
     {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\Imagens\\xwing_fighter.jpg",
       "PackagePath": "staticwebassets\\Imagens\\xwing_fighter.jpg"
-    },
-    {
-      "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\GotaAgua.jpg",
-      "PackagePath": "staticwebassets\\css\\GotaAgua.jpg"
     },
     {
       "Id": "C:\\Projetos_IEFP\\17 outubro\\PortfolioSamanta\\PotifolioSamanta\\wwwroot\\css\\Minty.css",

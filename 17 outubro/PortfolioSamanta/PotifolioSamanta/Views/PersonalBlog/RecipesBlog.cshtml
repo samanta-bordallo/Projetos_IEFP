@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<PersonalBlogModel>
 
-<div class=" container">
+<div class="container" id="top">
     <div class="d-flex justify-content-between align-items-center">
         <h1 class="display-4 align-items-center"><i class="bi bi-journal-bookmark-fill"></i> <i class="bi bi-journal-bookmark-fill"></i> Recipes <i class="bi bi-journal-bookmark-fill"></i><i class="bi bi-journal-bookmark-fill"></i>
 
@@ -155,4 +155,9 @@
     </div>
 </div>
 
-<div style="height: 15px;"></div>
+<div class="d-flex gap-2 mt-5 justify-content-center text-center">
+    <a class="btn btn-dark w-25" href="#top">Return to top</a>
+    <a class="btn btn-dark w-25" asp-controller="PersonalBlog" asp-action="Index">Return to Personal Blog</a>
+</div>
+
+<div style="height: 100px;"></div>

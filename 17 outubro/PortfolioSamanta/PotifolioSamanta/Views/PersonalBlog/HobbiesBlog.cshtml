@@ -1,111 +1,116 @@
 ﻿@model IEnumerable<PersonalBlogModel>
 
-<div class="container">
+<div class="container id=" top"">
     <div class="d-flex justify-content-between align-items-center">
         <h1 class="display-4 align-items-center"><i class="bi bi-palette"></i> <i class="bi bi-palette"></i> Samanta's Hobbies <i class="bi bi-palette"></i><i class="bi bi-palette"></i></h1>
     </div>
 </div>
 
 <div class="container my-4">
-<div class="card" style="max-width: 90%;">
-    <div class="card-header text-center">
-        <h2 class="display-6">
-            <a id="expand-link-origami" href="#" style="text-decoration: none;">
-                Origami Gallery
-            </a>
-        </h2>
-    </div>
-    <div class="card-body" id="content-body-origami" style="display: none;">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="~/Imagens/origami.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/xwing_fighter.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/dragon.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/guitar2.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
-            </div>
+    <div class="card h-100 d-flex" style="max-width: 90%;">
+        <div class="card-header text-center">
+            <h2 class="display-6">
+                <a id="expand-link-origami" href="#" style="text-decoration: none; color: gray; font-family: 'Lobster', cursive;">
+                    Origami Gallery
+                </a>
+            </h2>
         </div>
-        <div style="height: 15px;"></div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/rose.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+        <div class="card-body" id="content-body-origami" style="display: none;">
+            <div class="row">
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/origami.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/xwing_fighter.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/dragon.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/guitar2.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
             </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/rose2.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            <div style="height: 15px;"></div>
+            <div class="row">
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/rose.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/rose2.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/stars.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Origamis/tsuruclinica.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
             </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/stars.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
+            <div style="height: 15px;"></div>
+            <div class="row">
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="" style="width: 100%;">
+                </div>
             </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Origamis/tsuruclinica.jpg" class="img-fluid" alt="" style="width: 18rem; height: 100%;">
-            </div>
-        </div>
-        <div style="height: 15px;"></div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/PaoDeQueijo.jpg" class="img-fluid" alt="">
-            </div>
-
         </div>
     </div>
 </div>
 
 <div class="container my-4">
-    <div a class="card" style="max-width: 90%;">
+    <div class="card h-100 d-flex" style="max-width: 90%;">
         <div class="card-header text-center">
             <h2 class="display-6">
-                <a id="expand-link-clay" href="#" style="text-decoration: none;">
+                <a id="expand-link-clay" href="#" style="text-decoration: none; color: gray; font-family: 'Lobster', cursive;">
                     Air Dry Clay
                 </a>
             </h2>
         </div>
         <div class="card-body" id="content-body-clay" style="display: none;">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit1.jpg" class="img-fluid" alt="Pão de Queijo 1" style="width: 18rem; height: 100%;">
+            <div class="row">
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit1.jpg" class="img-fluid" alt="Pão de Queijo 1" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit2.jpg" class="img-fluid" alt="Pão de Queijo 2" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit3.jpg" class="img-fluid" alt="Pão de Queijo 3" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit4.jpg" class="img-fluid" alt="Pão de Queijo 4" style="width: 100%;">
+                </div>
             </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit2.jpg" class="img-fluid" alt="Pão de Queijo 2" style="width: 18rem; height: 100%;">
+            <div style="height: 15px;"></div>
+            <div class="row">
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit5.jpg" class="img-fluid" alt="Pão de Queijo 5" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit6.jpg" class="img-fluid" alt="Pão de Queijo 6" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit7.jpg" class="img-fluid" alt="Pão de Queijo 7" style="width: 100%;">
+                </div>
+                <div class="col-md-3 d-flex flex-fill">
+                    <img src="~/Imagens/Hobbies/Biscuit/biscuit8.jpg" class="img-fluid" alt="Pão de Queijo 8" style="width: 100%;">
+                </div>
             </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit3.jpg" class="img-fluid" alt="Pão de Queijo 3" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit4.jpg" class="img-fluid" alt="Pão de Queijo 4" style="width: 18rem; height: 100%;">
-            </div>
-        </div>
-        <div style="height: 15px;"></div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit5.jpg" class="img-fluid" alt="Pão de Queijo 5" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit6.jpg" class="img-fluid" alt="Pão de Queijo 6" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit7.jpg" class="img-fluid" alt="Pão de Queijo 7" style="width: 18rem; height: 100%;">
-            </div>
-            <div class="col-md-3">
-                <img src="~/Imagens/Hobbies/Biscuit/biscuit8.jpg" class="img-fluid" alt="Pão de Queijo 8" style="width: 18rem; height: 100%;">
-            </div>
-        </div>
-        <div style="height: 15px;"></div>
+            <div style="height: 15px;"></div>
         </div>
     </div>
+</div>
+
+<div class="d-flex gap-2 mt-5 justify-content-center text-center">
+    <a class="btn btn-dark w-25" href="#top">Return to top</a>
+    <a class="btn btn-dark w-25" asp-controller="PersonalBlog" asp-action="Index">Return to Personal Blog</a>
 </div>
 
 <div style="height: 100px;"></div>
