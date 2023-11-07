@@ -68,3 +68,4 @@ document.getElementById('expand-link').addEventListener('click', function (event
     const imageContainer = document.getElementById('image-container');
     imageContainer.style.display = 'block';
 });
+
