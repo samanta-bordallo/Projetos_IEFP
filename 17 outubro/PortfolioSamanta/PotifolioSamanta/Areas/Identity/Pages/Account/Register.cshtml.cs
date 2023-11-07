@@ -115,7 +115,7 @@ namespace PortfolioSamanta.Areas.Identity.Pages.Account
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            //add 
+            //add para perfil
             Input = new InputModel
             {
                 RolesList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
